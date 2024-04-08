@@ -2,4 +2,23 @@
 Repo for all my learning in Data Camp
 
 # Analyzing Students' Mental Health
-https://app.datacamp.com/workspace/w/f77e1a13-28a8-44ef-a234-693bc122681d/edit?editorVersion=dcStudioEditor&emitCellOutputs=false&showExploreMore=false&showNavBar=false&showPublicationButton=false&showOnlyRelevantSampleIntegrationIds[]=89e17161-a224-4a8a-846b-0adc0fe7a4b1&showOnlyRelevantSampleIntegrationIds[]=e0c96696-ae0a-46fb-b6f9-1a43eb428ecb&showOnlyRelevantSampleIntegrationIds[]=b1fcb109-b4fe-4543-bc98-681df8c4dc6e&showOnlyRelevantSampleIntegrationIds[]=fcf37a0e-f8bd-4c85-95a5-201d3eebea48&showOnlyRelevantSampleIntegrationIds[]=db697c09-0402-4a02-b327-26018dc2ecce#3b05e587-87e3-4bec-9511-ddaae6552ac4
+![image](https://github.com/Rajeshtrasula/Datacamp-Learning/assets/98252855/c02673bc-41d8-4cf2-a88b-af6dadf08346)
+Explore and analyze the students data to see how the length of stay (stay) impacts the average mental health diagnostic scores of the international students present in the study.
+
+Return a table with nine rows and five columns.
+The five columns should be aliased as: stay, count_int, average_phq, average_scs, and average_as, in that order.
+The average columns should contain the average of the todep (PHQ-9 test), tosc (SCS test), and toas (ASISS test) columns for each length of stay, rounded to two decimal places.
+The count_int column should be the number of international students for each length of stay.
+Sort the results by the length of stay in descending order.
+
+inter_dom	Types of students (international or domestic)
+japanese_cate	Japanese language proficiency
+english_cate	English language proficiency
+academic	Current academic level (undergraduate or graduate)
+age	Current age of student
+stay	Current length of stay in years
+todep	Total score of depression (PHQ-9 test)
+tosc	Total score of social connectedness (SCS test)
+toas	Total score of acculturative stress (ASISS test)
+
+
